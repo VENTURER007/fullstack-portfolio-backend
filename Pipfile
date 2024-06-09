@@ -9,6 +9,7 @@ djangorestframework = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
 django-heroku = "*"
+pillow = "*"
 
 [dev-packages]
 
