@@ -28,6 +28,7 @@ class TechStacks(models.Model):
         verbose_name_plural = "Tech Stacks"
 
 class HeroSection(models.Model):
+    name= models.CharField(max_length=100,default="Aswin A K")
     role = models.CharField(max_length=200)
     description = models.CharField(max_length=200)
     background_image = models.ImageField(upload_to='assets/profile_image/')
