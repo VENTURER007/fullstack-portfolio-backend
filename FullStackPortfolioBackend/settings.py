@@ -30,7 +30,7 @@ DEBUG = True
 # ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000", "http://192.168.1.76:3000/" # Add other allowed origins as needed
+    "https://polite-puffpuff-0bdf55.netlify.app/",http://localhost:3000", "http://192.168.1.76:3000/" # Add other allowed origins as needed
 ]
 
 
