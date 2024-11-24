@@ -31,7 +31,7 @@ class HeroSection(models.Model):
     name= models.CharField(max_length=100,default="Aswin A K")
     role = models.CharField(max_length=200)
     description = models.CharField(max_length=200)
-    background_image = models.ImageField(upload_to='assets/profile_image/')
+    background_image = models.ImageField(upload_to='profile_image/')
     socials = models.ManyToManyField(Socials, blank=True)
     tech_stack = models.ManyToManyField(TechStacks, blank=True)
 
@@ -53,7 +53,7 @@ class AboutMe(models.Model):
     title = models.CharField(max_length=100)
     main_description = models.TextField()
     sub_description = models.TextField()
-    styling_image = models.FileField(upload_to='assets/about_me/', validators=[validate_image_extension])
+    styling_image = models.FileField(upload_to='about_me/', validators=[validate_image_extension])
 
     def __str__(self):
         return "About Me"
