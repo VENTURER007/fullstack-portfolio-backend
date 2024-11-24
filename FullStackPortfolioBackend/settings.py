@@ -30,7 +30,7 @@ DEBUG = True
 # ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://aswinak-dev.netlify.app","http://localhost:3000", "http://192.168.1.76:3000" # Add other allowed origins as needed
+"https://aswinak-dev.netlify.app","http://localhost:3000", "http://192.168.1.76:3000","https://aswinak.live","http://aswinak.live" # Add other allowed origins as needed
 ]
 
 
